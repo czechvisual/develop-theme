@@ -1,0 +1,68 @@
+.app {
+  &-footer {
+    @include transition(.3s, ease-in-out);
+
+    background-color: var(--color-dark-lighten);
+    padding: 1.5rem 1rem;
+    z-index: 10;
+
+    .container {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+
+    &-copyright {
+      color: color('primary');
+      font-weight: font-weight('medium');
+      text-align: center;
+
+      @include media-queries-up(md) {
+        text-align: left;
+      }
+
+      a {
+        @include transition(.3s, ease-in-out);
+
+        color: color('primary');
+        font-weight: font-weight('medium');
+        text-align: center;
+        text-decoration: none;
+
+        &:hover {
+          color: color('secondary');
+        }
+      }
+
+      img {
+        @include transition(.3s, ease-in-out);
+
+        display: inline;
+        height: 1rem;
+        margin: -.5rem 0 0 .25rem;
+        width: auto;
+      }
+    }
+
+    &-menu {
+      margin-top: 1rem;
+      text-align: center;
+
+      @include media-queries-up(md) {
+        margin-top: inherit;
+        text-align: right;
+      }
+
+      a {
+        @include transition(.3s, ease-in-out);
+
+        color: color('primary');
+        font-weight: font-weight('medium');
+        text-decoration: none;
+
+        &:hover {
+          color: color('secondary');
+        }
+      }
+    }
+  }
+}
