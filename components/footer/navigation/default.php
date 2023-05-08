@@ -1,12 +1,8 @@
-<div class="col-md-6 app-footer-menu">
-    <a
-        href="/privacy-policy"
-        target="_blank">
+<div class="col-md-5 app-footer-menu">
+    <a href="/privacy-policy">
         Ochrana osobních údajů
     </a> |
-    <a
-        href="/cookies"
-        target="_blank">
+    <a href="/cookies">
         Cookies
     </a>
 </div>

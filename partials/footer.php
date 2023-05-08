@@ -2,8 +2,8 @@
 
         <footer id="footer" class="app-footer">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6 app-footer-copyright">
+                <div class="row flex-column-reverse flex-md-row">
+                    <div class="col-md-7 app-footer-copyright">
                         &copy;&nbsp;<?= date("Y") . ' ' . app()['info']['copyright-name'] ?> |
                         <a
                             href="<?= app()['info']['creator-url'] ?>"

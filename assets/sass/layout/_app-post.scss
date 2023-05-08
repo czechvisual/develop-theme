@@ -1,6 +1,6 @@
 .post {
   &-feature {
-    background-color: color('primary');
+    background-color: var(--color-primary-default);
     position: relative;
 
     img {
@@ -35,11 +35,11 @@
       z-index: 1;
 
       h1 {
-        color: color('white');
+        color: var(--color-light-default);
       }
 
       .date {
-        color: color('white');
+        color: var(--color-light-default);
       }
     }
   }
@@ -78,11 +78,11 @@
     a {
       @include transition(.3s, ease-in-out);
 
-      color: color('primary');
+      color: var(--color-primary-default);
       text-decoration: none;
 
       &:hover {
-        color: color('secondary');
+        color: var(--color-secondary-hover);
       }
     }
 

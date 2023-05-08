@@ -1,11 +1,10 @@
 <?php get_header(); ?>
 
     <?= component('hero', 'carousel', [
-        'title' => __('WordPress Starter Theme'),
+        'title' => true,
+        'description' => true,
         'show_arrows' => true
-    ], function() {
-        return '<p>WordPress Starter Theme, jehož cílem je modernizovat, organizovat a zlepšit některé aspekty vývoje motivů WordPress.</p>';
-    }) ?>
+    ]) ?>
 
     <section class="container">
         <div class="row">

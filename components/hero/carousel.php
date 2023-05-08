@@ -39,12 +39,14 @@
                         <div class="col">
                             <?php if (isset($title)) : ?>
                                 <h1 class="wow slideInLeft" data-wow-duration="1s" data-wow-offset="10">
-                                    <?=get_the_title()?>
+                                    <?= get_the_title() ?>
                                 </h1>
                             <?php endif; ?>
 
                             <?php if (isset($description)) : ?>
-                                <?=the_content()?>
+                                <p>
+                                    <?= get_the_content() ?>
+                                </p>
                             <?php endif; ?>
 
                             <?php if (isset($template_content)) : ?>

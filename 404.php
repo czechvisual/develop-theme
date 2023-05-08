@@ -1,18 +1,30 @@
-<div class="error">
+<div class="app-error">
     <?=get_header()?>
 
-    <div class="inner">
+    <div class="container">
+        <div class="error-type">
+            404
+        </div>
+
         <h1>
             Tato stránka neexistuje
         </h1>
 
-        <p>
-            Omlouváme se. Vypadá to, že tato stránka neexistuje nebo byla již smazána.
+        <p class="font-size-p-large">
+            Omlouváme se. Vypadá to, že tato stránka neexistuje nebo již byla smazána.
         </p>
 
-        <a href="<?= get_home_url() ?>" class="button button-secondary">
-            Vrátit se na hlavní stranu
-        </a>
+        <?= component('button', 'default', [
+            'label' => __('Vrátit se zpět'),
+            'url' => __('javascript:history.go(-1)'),
+            'color' => __('secondary')
+        ]) ?>
+
+        <?= component('button', 'default', [
+            'label' => __('Na úvodní stranu'),
+            'url' => __(get_home_url()),
+            'color' => __('light')
+        ]) ?>
     </div>
 
     <?=get_footer()?>

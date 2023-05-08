@@ -48,10 +48,10 @@ cookieconsent.run({
         }
       },
       settings_modal: {
-        title: 'Podrobné nastavení',
+        title: 'Všechna nastavení',
         save_settings_btn: 'Uložit nastavení',
-        accept_all_btn: 'Přijmout všechny',
-        reject_all_btn: 'Odmítnout všechny', // optional, [v.2.5.0 +]
+        accept_all_btn: 'Přijmout',
+        reject_all_btn: 'Odmítnout',
         cookie_table_headers: [{
           col1: 'Cookie'
         },
