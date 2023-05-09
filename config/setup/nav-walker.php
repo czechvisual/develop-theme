@@ -1,6 +1,6 @@
 <?php
 
-namespace developtheme;
+namespace developtheme\config\setup;
 
 // Add class to menu list items
 function add_menu_list_item_class($classes, $item, $args)
