@@ -13,7 +13,7 @@ function register_carousel_post_type()
         'show_ui'                => true,
         'show_in_menu'           => true,
         'show_in_rest'           => false,
-        'supports'               => ['title', 'editor', 'excerpt', 'thumbnail'],
+        'supports'               => ['title', 'editor'],
         'taxonomies'             => [],
         'labels' => [
             'menu_name'          => __( 'Carousel', app()['textdomain'] ),

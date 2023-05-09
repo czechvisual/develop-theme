@@ -26,39 +26,37 @@ function remove_dashboard_widgets() {
 
 add_action( 'wp_dashboard_setup', __NAMESPACE__ . '\remove_dashboard_widgets' );
 
-function add_custom_guide_dashboard_widget() {
+function dashboard_widget_guide() {
     wp_add_dashboard_widget(
-        'dashboard_widget', // Widget ID
-        'Custom Guide', // Widget title
-        'custom_guide_dashboard_widget_content' // Callback function
+        'dashboard_widget_guide', // Widget ID
+        'Doporučení', // Widget title
+        __NAMESPACE__ . '\dashboard_widget_guide_content' // Callback function
     );
 }
 
-add_action('wp_dashboard_setup', __NAMESPACE__ . '\add_custom_guide_dashboard_widget');
+add_action('wp_dashboard_setup', __NAMESPACE__ . '\dashboard_widget_guide');
 
-function custom_guide_dashboard_widget_content() {
-    esc_html_e( "Hello World, this is my first Dashboard Widget!", "textdomain" );
+function dashboard_widget_guide_content() {
+    include get_theme_file_path( 'components/admin/widget/guide.php' );
 }
 
 // Change Admin Menu Order
 function custom_menu_order( $menu_ord ) {
     if ( !$menu_ord ) return true;
     return array(
-        // 'index.php', // Dashboard
-        // 'separator1', // First separator
-        // 'edit.php?post_type=page', // Pages
-        // 'edit.php', // Posts
-        // 'upload.php', // Media
-        // 'gf_edit_forms', // Gravity Forms
-        // 'genesis', // Genesis
-        // 'edit-comments.php', // Comments
-        // 'separator2', // Second separator
-        // 'themes.php', // Appearance
-        // 'plugins.php', // Plugins
-        // 'users.php', // Users
-        // 'tools.php', // Tools
-        // 'options-general.php', // Settings
-        // 'separator-last', // Last separator
+        'index.php', // Dashboard
+        'upload.php', // Media
+        'separator1', // First separator
+        'edit.php?post_type=page', // Pages
+        'edit.php', // Posts
+        'edit.php?post_type=carousel', // Carousel
+        'separator2', // Second separator
+        'separator-last', // Last separator
+        'themes.php', // Appearance
+        'plugins.php', // Plugins
+        'users.php', // Users
+        'tools.php', // Tools
+        'options-general.php', // Settings
     );
 }
 
@@ -67,7 +65,14 @@ add_filter( 'menu_order', __NAMESPACE__ . '\custom_menu_order' );
 
 // Hide Admin Areas that are not used
 function remove_menu_pages() {
-    // remove_menu_page( 'link-manager.php' );
+    if (!current_user_can('manage_options')) { // If is not admin user
+        remove_menu_page('users.php');
+        remove_menu_page('themes.php');
+        remove_menu_page('plugins.php');
+        remove_menu_page('options-general.php');
+    }
+
+    remove_menu_page('tools.php'); // Remove for everybody
 }
 
 add_action( 'admin_menu', __NAMESPACE__ . '\remove_menu_pages' );
