@@ -12,19 +12,19 @@ function component($component_name, $component_variant, $variables = [], $conten
 
     $template_directory = get_template_directory();
     $path_prefix = (strpos($template_directory, '/origin') === false) ? 'origin/' : '';
-    $path = $path_prefix . 'components' . '/' . $component_name . '/' . $component_variant;
+    $path = $template_directory . '/' . $path_prefix . 'components/' . $component_name . '/' . $component_variant;
 
     include(locate_template($path . '.php'));
     return ob_get_clean();
 }
 
-function partials( $partials_name ) {
+function partials($partials_name) {
     ob_start();
     $template_directory = get_template_directory();
     $path_prefix = (strpos($template_directory, '/origin') === false) ? 'origin/' : '';
-    $path = $path_prefix . 'partials' . '/' . $partials_name;
-
+    $path = $template_directory . '/' . $path_prefix . 'partials/' . $partials_name;
     include(locate_template($path . '.php'));
     return ob_get_clean();
 }
+
 
