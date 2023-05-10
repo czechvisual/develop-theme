@@ -10,7 +10,7 @@ function register_stylesheets() {
     wp_enqueue_style('owl-carousel', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css');
     wp_enqueue_style('owl-carousel-min', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css');
     wp_enqueue_style('wow-animate', 'https://res.cloudinary.com/patrik-vadura/raw/upload/v1681991005/animate_evdwgt.css');
-    wp_enqueue_style('styles', get_template_directory_uri() . '/public/assets/css/app.css');
+    wp_enqueue_style('styles', get_template_directory_uri() . '/../public/assets/css/app.css');
 }
 
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\register_stylesheets');
@@ -24,9 +24,9 @@ function register_scripts() {
     wp_enqueue_script('cookie-consent', 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.6/dist/cookieconsent.js', array(), false, true);
     wp_enqueue_script('cookie-consent-init', get_template_directory_uri() . '/public/assets/js/modules/cookieconsent-init.js', array(), false, true);
     wp_enqueue_script('owl-carousel', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js');
-    wp_enqueue_script('wow-min', get_template_directory_uri() . '/public/assets/js/modules/wow.min.js', array(), false, true);
-    wp_enqueue_script('wow-init', get_template_directory_uri() . '/public/assets/js/modules/wow-init.js', array(), false, true);
-    wp_enqueue_script('scripts', get_template_directory_uri() . '/public/assets/js/app.js', array(), false, true);
+    wp_enqueue_script('wow-min', get_template_directory_uri() . '/../public/assets/js/modules/wow.min.js', array(), false, true);
+    wp_enqueue_script('wow-init', get_template_directory_uri() . '/../public/assets/js/modules/wow-init.js', array(), false, true);
+    wp_enqueue_script('scripts', get_template_directory_uri() . '/../public/assets/js/app.js', array(), false, true);
 }
 
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\register_scripts');
@@ -34,8 +34,8 @@ add_action('wp_enqueue_scripts', __NAMESPACE__ . '\register_scripts');
 // Register admin files
 
 function register_admin() {
-    wp_enqueue_style('admin-styles', get_template_directory_uri() . '/public/assets/css/admin.css');
-    wp_enqueue_script('admin-scripts', get_template_directory_uri() . '/public/assets/js/admin.js', array(), false, true);
+    wp_enqueue_style('admin-styles', get_template_directory_uri() . '/../public/assets/css/admin.css');
+    wp_enqueue_script('admin-scripts', get_template_directory_uri() . '/../public/assets/js/admin.js', array(), false, true);
 }
 
 add_action( 'admin_enqueue_scripts', __NAMESPACE__ . '\register_admin' );
