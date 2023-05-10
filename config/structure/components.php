@@ -1,5 +1,7 @@
 <?php
 
+namespace developtheme\config\structure;
+
 function component($component_name, $component_variant, $variables = [], $content_callback = null) {
     extract($variables);
     ob_start();
