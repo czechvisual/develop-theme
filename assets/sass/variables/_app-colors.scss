@@ -19,7 +19,8 @@ $special-colors: (
 // Map merge
 
 $color-maps: ();
-$colors: map-merge($base-colors, $special-colors);
+$colors-origin: map-merge($base-colors, $special-colors);
+$colors: map-merge($colors-origin, $colors-new);
 
 @each $color-name, $color-value in $colors {
   $color-maps: map-merge(

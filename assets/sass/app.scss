@@ -1,6 +1,9 @@
 // Functions & mixins
 @import 'functions';
 
+// Overwrite with new files
+@import '../../sass/config';
+
 // Mixins
 @import "mixins/media-queries";
 @import "mixins/transitions";
