@@ -46,7 +46,7 @@ $font-sizes: (
   "p": 12px,
   "p-small": 10px
 );
-$font-sizes: map-merge($font-sizes, $font-sizes);
+$font-sizes: map-merge($font-sizes, $font-sizes-new);
 
 @function rounded-font-size($size) {
   $rounded-size: round($size);
