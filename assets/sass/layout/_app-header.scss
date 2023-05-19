@@ -130,10 +130,23 @@
         text-decoration: none;
       }
 
-      &:hover,
-      &:focus,
+      &:hover a,
+      &:focus a,
       &.active a {
         color: var(--color-secondary-default);
+      }
+
+      &.lang-item {
+        margin-left: 1rem;
+        border-left: 1px solid var(--color-gray-lightest);
+
+        a {
+          color: var(--color-gray-lighten);
+        }
+
+        &:hover a {
+          color: var(--color-gray-light);
+        }
       }
     }
   }

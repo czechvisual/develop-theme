@@ -19,11 +19,11 @@
                 <?php endif; ?>
 
                 <?= component('button', 'default', [
-                    'label' => __('Zobrazit více'),
-                    'url' => __('#'),
-                    'variant' => __(''),
-                    'size' => __('medium'),
-                    'color' => __('secondary'),
+                    'label' => __('Zobrazit více', app()['textdomain']),
+                    'url' => '#',
+                    'variant' => '',
+                    'size' => 'medium',
+                    'color' => 'secondary',
                 ]) ?>
             </div>
         </div>

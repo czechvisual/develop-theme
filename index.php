@@ -19,15 +19,17 @@
             <?php endif; ?>
         </div>
 
+        <p><?= __('Testovací text', app()['textdomain']) ?></p>
+
         <?= component('button', 'default', [
-            'label' => __('Zobrazit modal'),
+            'label' => __('Zobrazit modal', app()['textdomain']),
             'button' => true,
-            'color' => __('secondary'),
-            'selector' => __('data-open-modal'),
+            'color' => 'secondary',
+            'selector' => 'data-open-modal',
         ]) ?>
 
         <?= component('modal', 'center', [], function() {
-            return '<p>Obsah okna modalu.</p>';
+            return '<p>' . __('Obsah okna modalu.', app()['textdomain']) . '</p>';
         }) ?>
     </section>
 

@@ -19,7 +19,7 @@
             $c++;
             $class = ($c == 1) ? 'active' : '';
         ?>
-            <div class="hero carousel-item <?php echo $class; ?>">
+            <div class="hero carousel-item <?= $class ?>">
                 <?php
                 $image = get_field('background_image');
 
@@ -28,9 +28,9 @@
                     $alt = $image['alt']; ?>
 
                     <img
-                        src="<?php echo esc_url($url); ?>"
+                        src="<?= esc_url($url) ?>"
                         loading="lazy"
-                        alt="<?php echo esc_attr($alt); ?>"
+                        alt="<?= esc_attr($alt) ?>"
                     />
                 <?php endif; ?>
 
@@ -62,12 +62,12 @@
                                 $link_target = $link['target'] ? : '_self'; ?>
 
                                 <?= component('button', 'default', [
-                                    'label' => __(esc_html( $link_title )),
-                                    'url' => __(esc_url( $link_url )),
-                                    'target' => __(esc_attr( $link_target )),
-                                    'variant' => __(''),
-                                    'size' => __('medium'),
-                                    'color' => __('secondary'),
+                                    'label' => esc_html( $link_title ),
+                                    'url' => esc_url( $link_url ),
+                                    'target' => esc_attr( $link_target ),
+                                    'variant' => '',
+                                    'size' => 'medium',
+                                    'color' => 'secondary',
                                 ]) ?>
                             <?php endif; ?>
                         </div>

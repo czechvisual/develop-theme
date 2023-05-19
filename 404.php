@@ -7,23 +7,23 @@
         </div>
 
         <h1>
-            Tato stránka neexistuje
+            <?= __('Tato stránka neexistuje', app()['textdomain']) ?>
         </h1>
 
         <p class="font-size-p-large">
-            Omlouváme se. Vypadá to, že tato stránka neexistuje nebo již byla smazána.
+            <?= __('Omlouváme se. Vypadá to, že tato stránka neexistuje nebo již byla smazána.', app()['textdomain']) ?>
         </p>
 
         <?= component('button', 'default', [
-            'label' => __('Vrátit se zpět'),
-            'url' => __('javascript:history.go(-1)'),
-            'color' => __('secondary')
+            'label' => __('Vrátit se zpět', app()['textdomain']),
+            'url' => 'javascript:history.go(-1)',
+            'color' => 'secondary'
         ]) ?>
 
         <?= component('button', 'default', [
-            'label' => __('Na úvodní stranu'),
-            'url' => __(get_home_url()),
-            'color' => __('light')
+            'label' => __('Na úvodní stranu', app()['textdomain']),
+            'url' => get_home_url(),
+            'color' => 'light'
         ]) ?>
     </div>
 

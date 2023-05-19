@@ -19,13 +19,13 @@ function the_breadcrumb($homeLabel = 'Domů', $displayIcon = false, $icon = 'fa-
             the_category('title_li=');
         } elseif (is_archive() || is_single()){
             if ( is_day() ) {
-                printf( __( '%s', 'acdfevelop' ), get_the_date() );
+                printf( __( '%s', app()['textdomain'] ), get_the_date() );
             } elseif ( is_month() ) {
-                printf( __( '%s', 'acdfevelop' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'acdfevelop' ) ) );
+                printf( __( '%s', app()['textdomain'] ), get_the_date( _x( 'F Y', 'monthly archives date format', app()['textdomain'] ) ) );
             } elseif ( is_year() ) {
-                printf( __( '%s', 'acdfevelop' ), get_the_date( _x( 'Y', 'yearly archives date format', 'acdfevelop' ) ) );
+                printf( __( '%s', app()['textdomain'] ), get_the_date( _x( 'Y', 'yearly archives date format', app()['textdomain'] ) ) );
             } else {
-                _e( 'Blog Archives', 'acdfevelop' );
+                _e( 'Blog Archives', app()['textdomain'] );
             }
         }
 

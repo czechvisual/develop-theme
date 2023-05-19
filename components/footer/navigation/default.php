@@ -1,8 +1,8 @@
 <div class="col-md-5 app-footer-menu">
     <a href="/privacy-policy">
-        Ochrana osobních údajů
+        <?= __('Ochrana osobních údajů', app()['textdomain']) ?>
     </a> |
     <a href="/cookies">
-        Cookies
+        <?= __('Cookies', app()['textdomain']) ?>
     </a>
 </div>

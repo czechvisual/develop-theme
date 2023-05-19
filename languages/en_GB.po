@@ -1,0 +1,1568 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress šablona na míru - develop.theme\n"
+"POT-Creation-Date: 2023-05-19 17:18+0200\n"
+"PO-Revision-Date: 2023-05-19 17:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: config/acf\n"
+
+#: 404.php:10
+msgid "Tato stránka neexistuje"
+msgstr "This page doesn’t exist"
+
+#: 404.php:14
+msgid ""
+"Omlouváme se. Vypadá to, že tato stránka neexistuje nebo již byla smazána."
+msgstr ""
+"Sorry. It looks like this page doesn’t exist or has already been deleted."
+
+#: 404.php:18
+msgid "Vrátit se zpět"
+msgstr "Back"
+
+#: 404.php:24
+msgid "Na úvodní stranu"
+msgstr "Go to homepage"
+
+#: components/admin/widget/guide.php:2
+msgid "WordPress šablona na míru"
+msgstr "WordPress individual theme - develop.theme"
+
+#: components/admin/widget/guide.php:9
+msgid "Média"
+msgstr "Media"
+
+#: components/admin/widget/guide.php:14
+msgid ""
+"Nahrání médií jako jsou obrázky či videa, je velmi snadné a lze provést v "
+"sekci"
+msgstr ""
+"Uploading media such as images or videos is very easy and can be done in a "
+"section"
+
+#: components/admin/widget/guide.php:14
+msgid "Media"
+msgstr "Media"
+
+#: components/admin/widget/guide.php:16
+msgid ""
+"Pro zachování dostatečné rychlosti načítání webu a zajištění tak správného "
+"uživatelského zážitku na vašem webu, doporučujeme veškerá média předem "
+"formátovat a optimalizovat tak, aby vše odpovídalo požadovaným stadartům."
+msgstr ""
+"In order to maintain a sufficient loading speed of the website and thus "
+"ensure the correct user experience on your website, we recommend that all "
+"media be formatted and optimized in advance so that everything corresponds "
+"to the required standards."
+
+#: components/admin/widget/guide.php:19
+msgid "Doporučené parametry obrázků:"
+msgstr "Recommended image parameters:"
+
+#: components/admin/widget/guide.php:24
+msgid "Formát:"
+msgstr "Format:"
+
+#: components/admin/widget/guide.php:27
+msgid "Maximální velikost:"
+msgstr "Maximal size:"
+
+#: components/admin/widget/guide.php:32
+msgid "Jak obrázky optimalizovat?"
+msgstr "How to optimize images?"
+
+#: components/admin/widget/guide.php:41
+msgid ""
+"Pokud ani jeden z online nástrojů nezmenšil obrázek dostatečně, kontaktujte "
+"správce vašeho webu, který vám pomůže dosáhnout dostatetečné komprimace "
+"obrázku."
+msgstr ""
+"If none of the online tools have reduced the image size enough, contact your "
+"webmaster to help you achieve sufficient image compression."
+
+#: components/footer/navigation/default.php:3
+msgid "Ochrana osobních údajů"
+msgstr "Protection of personal data"
+
+#: components/footer/navigation/default.php:6
+msgid "Cookies"
+msgstr "Cookies"
+
+#: components/hero/static.php:22
+msgid "Zobrazit více"
+msgstr "Show more"
+
+#: components/post/breadcrumb/default.php:22
+#: components/post/breadcrumb/default.php:24
+#: components/post/breadcrumb/default.php:26
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: components/post/breadcrumb/default.php:24
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "FY"
+
+#: components/post/breadcrumb/default.php:26
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Year"
+
+#: components/post/breadcrumb/default.php:28
+msgid "Blog Archives"
+msgstr "Blog Archives"
+
+#: components/post/content/default.php:7
+msgid "Domů"
+msgstr "Home"
+
+#: components/post/sidebar/default.php:15
+msgid "Váš sidebar je prázdný."
+msgstr "Your sidebar is empty."
+
+#: config/setup/admin.php:32
+msgid "Doporučení"
+msgstr "Recommendation"
+
+#: config/setup/security.php:109
+msgid "Obrázek je příliš velký. Musí být menší než "
+msgstr "The image is too large. It must be less than "
+
+#: config/structure/navs.php:8
+msgid "Primary"
+msgstr "Primário"
+
+#: config/structure/post-types.php:10
+msgid "List carousel slidů."
+msgstr "A leaf of carousel slides."
+
+#: config/structure/post-types.php:19
+msgid "Carousel"
+msgstr "Carousel"
+
+#: config/structure/post-types.php:20
+msgctxt "post type general name"
+msgid "Carousel"
+msgstr "Carousel"
+
+#: config/structure/post-types.php:21
+msgctxt "post type singular name"
+msgid "Carousel"
+msgstr "Carousel"
+
+#: config/structure/post-types.php:22
+msgctxt "add new on admin bar"
+msgid "Carousel"
+msgstr "Carousel"
+
+#: config/structure/post-types.php:23
+msgctxt "thing"
+msgid "Vytvořit nový"
+msgstr "Create a new one"
+
+#: config/structure/post-types.php:24
+msgid "Vytvořit nový Carousel"
+msgstr "Create a new Carousel"
+
+#: config/structure/post-types.php:25
+msgid "Nový"
+msgstr "New"
+
+#: config/structure/post-types.php:26
+msgid "Upravit"
+msgstr "Edit"
+
+#: config/structure/post-types.php:27
+msgid "Zobrazit"
+msgstr "View"
+
+#: config/structure/post-types.php:28
+msgid "Všechny"
+msgstr "All"
+
+#: config/structure/post-types.php:29
+msgid "Vyhledat"
+msgstr "Search"
+
+#: config/structure/post-types.php:30
+msgid "Nadřazený:"
+msgstr "Superordinate:"
+
+#: config/structure/post-types.php:31
+msgid "Žádný hero nenalezen."
+msgstr "No hero found."
+
+#: config/structure/post-types.php:32
+msgid "Žádný hero nebyl v koši nalezen."
+msgstr "No hero was found in the trash."
+
+#: config/structure/sidebars.php:11
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: config/structure/sidebars.php:12
+msgid "Website sidebar"
+msgstr "Website sidebar"
+
+#: config/structure/taxonomies.php:18
+msgctxt "taxonomy general name"
+msgid "Žánry"
+msgstr "Genres"
+
+#: config/structure/taxonomies.php:19
+msgctxt "taxonomy singular name"
+msgid "Žánr"
+msgstr "Genre"
+
+#: config/structure/taxonomies.php:20
+msgid "Vyhledat žánry"
+msgstr "Search for genres"
+
+#: config/structure/taxonomies.php:21
+msgid "Všechny žánry"
+msgstr "All genres"
+
+#: config/structure/taxonomies.php:22
+msgid "Nadřazený žánr"
+msgstr "Parent genre"
+
+#: config/structure/taxonomies.php:23
+msgid "Nařazený žánr:"
+msgstr "Assigned genre:"
+
+#: config/structure/taxonomies.php:24
+msgid "Upravit žánr"
+msgstr "Update genre"
+
+#: config/structure/taxonomies.php:25
+msgid "Aktualizovat žánr"
+msgstr "Update genre"
+
+#: config/structure/taxonomies.php:26
+msgid "Přidat nový"
+msgstr "Add new"
+
+#: config/structure/taxonomies.php:27
+msgid "Nový žánr"
+msgstr "New Genre"
+
+#: config/structure/taxonomies.php:28
+msgid "Žánry"
+msgstr "Genres"
+
+#: index.php:22
+msgid "Testovací text"
+msgstr "Testing text"
+
+#: index.php:25
+msgid "Zobrazit modal"
+msgstr "Show Modal"
+
+#: index.php:32
+msgid "Obsah okna modalu."
+msgstr "Content of modal."
+
+#. Theme Name of the plugin/theme
+msgid "WordPress šablona na míru - develop.theme"
+msgstr "WordPress individual theme - develop.theme"
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.czechvisual.cz"
+msgstr "https://www.czechvisual.cz"
+
+#. Description of the plugin/theme
+msgid ""
+"Komplexní, individuální ACF šablona na míru pro váš web. Vytvořeno s péčí a "
+"citem &hearts;"
+msgstr ""
+"A comprehensive, individual ACF template tailored to your website. Created "
+"with care and sensitivity &hearts;"
+
+#. Author of the plugin/theme
+msgid "czechvisual"
+msgstr "czechvisual"
+
+#~ msgid "Advanced Custom Fields"
+#~ msgstr "Advanced Custom Fields"
+
+#~ msgid "Field Groups"
+#~ msgstr "Field groups"
+
+#~ msgid "Field Group"
+#~ msgstr "Field group"
+
+#~ msgid "Add New"
+#~ msgstr "Add New"
+
+#~ msgid "Add New Field Group"
+#~ msgstr "Add new field group"
+
+#~ msgid "Edit Field Group"
+#~ msgstr "Edit field group"
+
+#~ msgid "New Field Group"
+#~ msgstr "New field group"
+
+#~ msgid "View Field Group"
+#~ msgstr "View field group"
+
+#~ msgid "Search Field Groups"
+#~ msgstr "Search field groups"
+
+#~ msgid "No Field Groups found"
+#~ msgstr "No field groups found"
+
+#~ msgid "No Field Groups found in Trash"
+#~ msgstr "No field groups found in bin"
+
+#~ msgid "Fields"
+#~ msgstr "Campos"
+
+#~ msgid "Field"
+#~ msgstr "Field"
+
+#~ msgid "Add New Field"
+#~ msgstr "Add new field"
+
+#~ msgid "Edit Field"
+#~ msgstr "Edit field"
+
+#~ msgid "New Field"
+#~ msgstr "New field"
+
+#~ msgid "View Field"
+#~ msgstr "View field"
+
+#~ msgid "Search Fields"
+#~ msgstr "Search fields"
+
+#~ msgid "No Fields found"
+#~ msgstr "No fields found"
+
+#~ msgid "No Fields found in Trash"
+#~ msgstr "No fields found in bin"
+
+#~ msgctxt "post status"
+#~ msgid "Inactive"
+#~ msgstr "Inactivo"
+
+#~ msgid "or"
+#~ msgstr "yada"
+
+#~ msgid "copy"
+#~ msgstr "copy"
+
+#~ msgid "Move Custom Field"
+#~ msgstr "Move custom field"
+
+#~ msgid "Select File"
+#~ msgstr "Select file"
+
+#~ msgid "Edit File"
+#~ msgstr "Edit file"
+
+#~ msgid "Update File"
+#~ msgstr "Update file"
+
+#~ msgid "Select Image"
+#~ msgstr "Select image"
+
+#~ msgid "Edit Image"
+#~ msgstr "Edit image"
+
+#~ msgid "Update Image"
+#~ msgstr "更新图像"
+
+#~ msgid "Loading"
+#~ msgstr "Lädt"
+
+#~ msgctxt "verb"
+#~ msgid "Select"
+#~ msgstr "Select"
+
+#~ msgid "All images"
+#~ msgstr "所有图片"
+
+#~ msgctxt "verb"
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid "Expand Details"
+#~ msgstr "Expand details"
+
+#~ msgid "Collapse Details"
+#~ msgstr "Collapse details"
+
+#~ msgid "Restricted"
+#~ msgstr "Restringido"
+
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#~ msgid "Post"
+#~ msgstr "Post"
+
+#~ msgid "Posts"
+#~ msgstr "Articles"
+
+#~ msgid "Page"
+#~ msgstr "Página"
+
+#~ msgid "Pages"
+#~ msgstr "Pages"
+
+#~ msgid "Tag"
+#~ msgstr "Tag"
+
+#~ msgid "Tags"
+#~ msgstr "Теги"
+
+#~ msgid "Category"
+#~ msgstr "Category"
+
+#~ msgid "Categories"
+#~ msgstr "Категории"
+
+#~ msgid "Remove"
+#~ msgstr "حذف"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Are you sure?"
+
+#~ msgid "Yes"
+#~ msgstr "Yes"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Group Settings"
+#~ msgstr "Village Settings"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "Labels"
+#~ msgstr "Labels"
+
+#~ msgid "Visibility"
+#~ msgstr "Visibility"
+
+#~ msgid "Permissions"
+#~ msgstr "Permissões"
+
+#~ msgid "Taxonomies"
+#~ msgstr "分类标准"
+
+#~ msgid "Attachments"
+#~ msgstr "Archivos adjuntos"
+
+#~ msgid "Comments"
+#~ msgstr "Комментарии"
+
+#~ msgid "Widgets"
+#~ msgstr "Widgets"
+
+#~ msgid "Menus"
+#~ msgstr "Menus"
+
+#~ msgid "Users"
+#~ msgstr "Usuarios"
+
+#~ msgid "Options"
+#~ msgstr "Seçenekler"
+
+#~ msgid "Blocks"
+#~ msgstr "بلوک ها"
+
+#~ msgid "Field group updated."
+#~ msgstr "更新找到字段组"
+
+#~ msgid "Field group published."
+#~ msgstr "字段组已发表"
+
+#~ msgid "Field group saved."
+#~ msgstr "字段组已保存"
+
+#~ msgid "Field group submitted."
+#~ msgstr "字段组已提交"
+
+#~ msgid "Field group scheduled for."
+#~ msgstr "字段组已计划for"
+
+#~ msgid "Field group draft updated."
+#~ msgstr "字段组草稿已更新"
+
+#~ msgid "Settings"
+#~ msgstr "Settings"
+
+#~ msgid "Field Keys"
+#~ msgstr "Field keys"
+
+#~ msgctxt "post status"
+#~ msgid "Active"
+#~ msgstr "Ativo"
+
+#~ msgid "Move Complete."
+#~ msgstr "Move complete."
+
+#~ msgid "Move Field"
+#~ msgstr "Move field"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "Key"
+#~ msgstr "Mã"
+
+#~ msgid "Location"
+#~ msgstr "Location"
+
+#~ msgid "Import"
+#~ msgstr "Importar"
+
+#~ msgid "Duplicate this item"
+#~ msgstr "Kopier dette emne"
+
+#~ msgid "Duplicate"
+#~ msgstr "تکراری"
+
+#~ msgid "Activate"
+#~ msgstr "Activar"
+
+#~ msgid "Deactivate"
+#~ msgstr "Désactiver"
+
+#, php-format
+#~ msgid "Select %s"
+#~ msgstr "Selectionner %s"
+
+#~ msgid "Done"
+#~ msgstr "Done"
+
+#~ msgid "Tools"
+#~ msgstr "Araçlar"
+
+#~ msgid "Upgrade Database"
+#~ msgstr "Upgrade database"
+
+#~ msgid "Overview"
+#~ msgstr "بررسی اجمالی"
+
+#~ msgid ""
+#~ "The Advanced Custom Fields plugin provides a visual form builder to "
+#~ "customize WordPress edit screens with extra fields, and an intuitive API "
+#~ "to display custom field values in any theme template file."
+#~ msgstr ""
+#~ "The Advanced Custom Fields plugin provides a visual form builder to "
+#~ "customise WordPress edit screens with extra fields, and an intuitive API "
+#~ "to display custom field values in any theme template file."
+
+#, php-format
+#~ msgid ""
+#~ "Before creating your first Field Group, we recommend first reading our <a "
+#~ "href=\"%s\" target=\"_blank\">Getting started</a> guide to familiarize "
+#~ "yourself with the plugin's philosophy and best practises."
+#~ msgstr ""
+#~ "Before creating your first Field Group, we recommend first reading our <a "
+#~ "href=\"%s\" target=\"_blank\">Getting started</a> guide to familiarise "
+#~ "yourself with the plugin's philosophy and best practises."
+
+#~ msgid ""
+#~ "Please use the Help & Support tab to get in touch should you find "
+#~ "yourself requiring assistance."
+#~ msgstr ""
+#~ "Please use the Help and Support tab to get in touch should you find "
+#~ "yourself requiring assistance."
+
+#~ msgid "Help & Support"
+#~ msgstr "Help and Support"
+
+#, php-format
+#~ msgid ""
+#~ "<a href=\"%s\" target=\"_blank\">Help Desk</a>. The support professionals "
+#~ "on our Help Desk will assist with your more in depth, technical "
+#~ "challenges."
+#~ msgstr ""
+#~ "<a href=\"%s\" target=\"_blank\">Help Desk</a>. The support professionals "
+#~ "on our Help Desk will assist with your more in-depth, technical "
+#~ "challenges."
+
+#~ msgid "Information"
+#~ msgstr "Information"
+
+#, php-format
+#~ msgid "Version %s"
+#~ msgstr "Version %s"
+
+#~ msgid "View details"
+#~ msgstr "View details"
+
+#~ msgid "Visit website"
+#~ msgstr "访问网站"
+
+#~ msgid "and"
+#~ msgstr "en"
+
+#~ msgid "Block"
+#~ msgstr "Bloquear"
+
+#~ msgid "Options Page"
+#~ msgstr "Options page"
+
+#~ msgid "Basic Settings"
+#~ msgstr "基本设置"
+
+#~ msgid "Advanced Settings"
+#~ msgstr "Advanced Settings"
+
+#~ msgid "Post Types"
+#~ msgstr "Tipos de publicaciones"
+
+#~ msgid "Terms"
+#~ msgstr "مقررات"
+
+#~ msgid "No terms"
+#~ msgstr "没有条件"
+
+#~ msgid "Export Field Groups"
+#~ msgstr "Export field groups"
+
+#~ msgid "Select Field Groups"
+#~ msgstr "Select field groups"
+
+#~ msgid "Export"
+#~ msgstr "Exportar"
+
+#~ msgid "Import Field Groups"
+#~ msgstr "Import field groups"
+
+#~ msgid "No file selected"
+#~ msgstr "Nenhum arquivo selecionado"
+
+#~ msgid "Conditional Logic"
+#~ msgstr "Conditional logic"
+
+#~ msgid "Active"
+#~ msgstr "Ativo"
+
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#~ msgid "Move"
+#~ msgstr "Movimiento"
+
+#~ msgid "Delete"
+#~ msgstr "Borrar"
+
+#~ msgid "Field Type"
+#~ msgstr "Field type"
+
+#~ msgid "Field Label"
+#~ msgstr "Field label"
+
+#~ msgid "This is the name which will appear on the EDIT page"
+#~ msgstr "此名称将出现在编辑页面"
+
+#~ msgid "Field Name"
+#~ msgstr "Nombre del campo"
+
+#~ msgid "Single word, no spaces. Underscores and dashes allowed"
+#~ msgstr "Single word, no spaces. 可使用下划线和破折号。"
+
+#~ msgid "Required"
+#~ msgstr "Gereklidir"
+
+#~ msgid "Instructions"
+#~ msgstr "介绍"
+
+#~ msgid "Wrapper Attributes"
+#~ msgstr "Wrapper attributes"
+
+#~ msgid "Close Field"
+#~ msgstr "Close field"
+
+#~ msgid "Add Field"
+#~ msgstr "Feld hinzufügen"
+
+#~ msgid "Order"
+#~ msgstr "Orden"
+
+#~ msgid "Label"
+#~ msgstr "Etiqueta"
+
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Rules"
+#~ msgstr "Rules"
+
+#~ msgid "Style"
+#~ msgstr "Stil"
+
+#~ msgid "Standard (WP metabox)"
+#~ msgstr "Standard (WordPress metabox)"
+
+#~ msgid "Position"
+#~ msgstr "Pozisyon"
+
+#~ msgid "Side"
+#~ msgstr "Боковая сторона"
+
+#~ msgid "Top aligned"
+#~ msgstr "Top-aligned"
+
+#~ msgid "Left aligned"
+#~ msgstr "Left-aligned"
+
+#~ msgid "Order No."
+#~ msgstr "Order no."
+
+#~ msgid "Permalink"
+#~ msgstr "永久链接"
+
+#~ msgid "Content Editor"
+#~ msgstr "Content editor"
+
+#~ msgid "Excerpt"
+#~ msgstr "Extracto"
+
+#~ msgid "Custom Fields"
+#~ msgstr "Campos Personalizados"
+
+#~ msgid "Slug"
+#~ msgstr "тихоход"
+
+#~ msgid "Author"
+#~ msgstr "نویسنده"
+
+#~ msgid "Format"
+#~ msgstr "格式"
+
+#~ msgid "Page Attributes"
+#~ msgstr "Page attributes"
+
+#~ msgid "Featured Image"
+#~ msgstr "Featured Image"
+
+#~ msgid "Send Trackbacks"
+#~ msgstr "Send trackbacks"
+
+#~ msgid "Repeater Field"
+#~ msgstr "重复字段"
+
+#~ msgid "Flexible Content Field"
+#~ msgstr "灵活的内容字段"
+
+#~ msgid "Gallery Field"
+#~ msgstr "图库字段"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "Editor"
+#~ msgstr "ویراستیار"
+
+#~ msgid "Clear"
+#~ msgstr "Стереть"
+
+#, php-format
+#~ msgid "All %s"
+#~ msgstr "Все %s"
+
+#~ msgid "All Items"
+#~ msgstr "All Items"
+
+#~ msgid "All Posts"
+#~ msgstr "Todas las publicaciones"
+
+#, php-format
+#~ msgid "Edit %s"
+#~ msgstr "ویرایش %s"
+
+#~ msgid "Edit Item"
+#~ msgstr "Edit Item"
+
+#~ msgid "Edit Post"
+#~ msgstr "Gönderiyi Düzenle"
+
+#, php-format
+#~ msgid "View %s"
+#~ msgstr "Ver %s"
+
+#~ msgid "View Item"
+#~ msgstr "View Item"
+
+#~ msgid "View Items"
+#~ msgstr "View Items"
+
+#, php-format
+#~ msgid "Add New %s"
+#~ msgstr "添加 %s"
+
+#~ msgid "Add New Item"
+#~ msgstr "Add New Item"
+
+#, php-format
+#~ msgid "New %s"
+#~ msgstr "Yeni %s"
+
+#~ msgid "New Item"
+#~ msgstr "New Item"
+
+#, php-format
+#~ msgid "Parent %s:"
+#~ msgstr "Ebeveyni %s:"
+
+#, php-format
+#~ msgid "Search %s"
+#~ msgstr "搜索 %s"
+
+#~ msgid "Search Posts"
+#~ msgstr "پست های جستجو"
+
+#, php-format
+#~ msgid "No %s found"
+#~ msgstr "No %s found"
+
+#~ msgid "No posts found"
+#~ msgstr "Записи не найдены"
+
+#, php-format
+#~ msgid "No %s found in Trash"
+#~ msgstr "回收站中未找到%s"
+
+#~ msgid "Featured image"
+#~ msgstr "Imagem Destacada"
+
+#~ msgid "Pagination"
+#~ msgstr "Paginación"
+
+#~ msgid "Archive"
+#~ msgstr "Архив"
+
+#~ msgid "movie"
+#~ msgstr "film"
+
+#~ msgid "Public"
+#~ msgstr "Público"
+
+#~ msgid "Term Name"
+#~ msgstr "Nombre del término"
+
+#~ msgid "Menu Label"
+#~ msgstr "Etiqueta de menú"
+
+#~ msgid "All Tags"
+#~ msgstr "All Tags"
+
+#~ msgid "Edit Tag"
+#~ msgstr "Edit Tag"
+
+#~ msgid "View Tag"
+#~ msgstr "Edit Tag"
+
+#, php-format
+#~ msgid "Update %s"
+#~ msgstr "Atualizar %s"
+
+#~ msgid "Update Item"
+#~ msgstr "Update Item"
+
+#~ msgid "Update Tag"
+#~ msgstr "Update Tag"
+
+#~ msgid "Add New Tag"
+#~ msgstr "Add New Tag"
+
+#, php-format
+#~ msgid "New %s Name"
+#~ msgstr "جدید %s نام"
+
+#~ msgid "New Tag Name"
+#~ msgstr "New Tag Name"
+
+#, php-format
+#~ msgid "Parent %s"
+#~ msgstr "مادر %s"
+
+#~ msgid "Parent Category"
+#~ msgstr "Forældre Kategori"
+
+#~ msgid "Parent Category:"
+#~ msgstr "Forældre Kategori:"
+
+#~ msgid "Search Tags"
+#~ msgstr "Search Tags"
+
+#~ msgid "Popular Tags"
+#~ msgstr "Popular Tags"
+
+#~ msgid "Separate tags with commas"
+#~ msgstr "Separate brands with commas"
+
+#~ msgid "Add or remove tags"
+#~ msgstr "Add or remove brands"
+
+#~ msgid "Choose from the most used tags"
+#~ msgstr "Choose from the most used brands"
+
+#~ msgid "Not Found"
+#~ msgstr "Ikke Fundet"
+
+#~ msgid "No tags found"
+#~ msgstr "No brands found"
+
+#~ msgid "Quick Edit"
+#~ msgstr "Edition Rapide"
+
+#~ msgid "Select Field"
+#~ msgstr "选择字段"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentação"
+
+#~ msgid "Validation"
+#~ msgstr "Validation"
+
+#~ msgid "Add title"
+#~ msgstr "添加标题"
+
+#~ msgid "Save Changes"
+#~ msgstr "Guardar cambios"
+
+#~ msgid "More"
+#~ msgstr "More"
+
+#~ msgid "Updates"
+#~ msgstr "Updates"
+
+#, php-format
+#~ msgid ""
+#~ "The following sites require a DB upgrade. Check the ones you want to "
+#~ "update and then click %s."
+#~ msgstr ""
+#~ "The following sites require a database upgrade. Check the ones you want "
+#~ "to update and then click %s."
+
+#~ msgid "Upgrade Sites"
+#~ msgstr "Upgrade sites"
+
+#~ msgid "Site"
+#~ msgstr "Sitio"
+
+#~ msgid "Site is up to date"
+#~ msgstr "Site is up-to-date"
+
+#, php-format
+#~ msgid ""
+#~ "Database Upgrade complete. <a href=\"%s\">Return to network dashboard</a>"
+#~ msgstr ""
+#~ "Database upgrade complete. <a href=\"%s\">Return to network dashboard</a>"
+
+#~ msgid "Flexible Content"
+#~ msgstr "Flexible content"
+
+#~ msgid "Gallery"
+#~ msgstr "画廊"
+
+#~ msgid "Database Upgrade Required"
+#~ msgstr "Database upgrade required"
+
+#~ msgid ""
+#~ "This version contains improvements to your database and requires an "
+#~ "upgrade."
+#~ msgstr ""
+#~ "This version contains improvements to your database, which requires an "
+#~ "upgrade."
+
+#, php-format
+#~ msgid ""
+#~ "Please also check all premium add-ons (%s) are updated to the latest "
+#~ "version."
+#~ msgstr ""
+#~ "Please also check that all premium add-ons (%s) are updated to the latest "
+#~ "version."
+
+#~ msgid "Original"
+#~ msgstr "Oorspronklik"
+
+#~ msgid "Thumbnail"
+#~ msgstr "Thumbnail"
+
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgid "Full Size"
+#~ msgstr "Full size"
+
+#~ msgid "(no title)"
+#~ msgstr "(no title)"
+
+#~ msgid "Unknown"
+#~ msgstr "Unknown"
+
+#~ msgid "Basic"
+#~ msgstr "Grundlæggende"
+
+#~ msgid "Content"
+#~ msgstr "Contenido"
+
+#~ msgid "Advanced"
+#~ msgstr "پیشرفته"
+
+#~ msgid "Layout"
+#~ msgstr "布局"
+
+#, fuzzy
+#~ msgid "PRO"
+#~ msgstr ""
+#~ "In order to maintain a sufficient loading speed of the website and thus "
+#~ "ensure the correct user experience on your website, we recommend that all "
+#~ "media be formatted and optimized in advance so that everything "
+#~ "corresponds to the required standards."
+
+#~ msgid "Accordion"
+#~ msgstr "Акордион"
+
+#~ msgid "Open"
+#~ msgstr "باز"
+
+#~ msgid "Button Group"
+#~ msgstr "Button group"
+
+#~ msgid "Default Value"
+#~ msgstr "Default value"
+
+#~ msgid "Return Value"
+#~ msgstr "Return value"
+
+#~ msgid "Specify the returned value on front end"
+#~ msgstr "Specify the returned value on frontend"
+
+#~ msgid "Value"
+#~ msgstr "Value"
+
+#~ msgid "Both (Array)"
+#~ msgstr "Both (array)"
+
+#~ msgid "Allow Null?"
+#~ msgstr "Allow null?"
+
+#~ msgid "Horizontal"
+#~ msgstr "افقی"
+
+#~ msgid "Vertical"
+#~ msgstr "عمودی"
+
+#~ msgid "Checkbox"
+#~ msgstr "Checkbox"
+
+#~ msgid "Toggle All"
+#~ msgstr "Toggle all"
+
+#~ msgid "Color Picker"
+#~ msgstr "Colour picker"
+
+#~ msgid "Clear color"
+#~ msgstr "Clear colour"
+
+#~ msgid "Select default color"
+#~ msgstr "Select default colour"
+
+#~ msgid "Select Color"
+#~ msgstr "Select Colour"
+
+#~ msgid "Color value"
+#~ msgstr "Colour value"
+
+#~ msgid "Return Format"
+#~ msgstr "Return format"
+
+#~ msgid "Date Picker"
+#~ msgstr "Date picker"
+
+#~ msgctxt "Date Picker JS closeText"
+#~ msgid "Done"
+#~ msgstr "Done"
+
+#~ msgctxt "Date Picker JS currentText"
+#~ msgid "Today"
+#~ msgstr "امروز"
+
+#~ msgctxt "Date Picker JS nextText"
+#~ msgid "Next"
+#~ msgstr "Next"
+
+#~ msgctxt "Date Picker JS prevText"
+#~ msgid "Prev"
+#~ msgstr "Назад"
+
+#~ msgid "Display Format"
+#~ msgstr "Display format"
+
+#~ msgid "Save Format"
+#~ msgstr "Save format"
+
+#~ msgid "Week Starts On"
+#~ msgstr "Week starts on"
+
+#~ msgid "Date Time Picker"
+#~ msgstr "Date/time picker"
+
+#~ msgctxt "Date Time Picker JS timeOnlyTitle"
+#~ msgid "Choose Time"
+#~ msgstr "Choose time"
+
+#~ msgctxt "Date Time Picker JS timeText"
+#~ msgid "Time"
+#~ msgstr "Time"
+
+#~ msgctxt "Date Time Picker JS hourText"
+#~ msgid "Hour"
+#~ msgstr "Heure"
+
+#~ msgctxt "Date Time Picker JS minuteText"
+#~ msgid "Minute"
+#~ msgstr "分钟"
+
+#~ msgctxt "Date Time Picker JS secondText"
+#~ msgid "Second"
+#~ msgstr "Seconde"
+
+#~ msgctxt "Date Time Picker JS timezoneText"
+#~ msgid "Time Zone"
+#~ msgstr "Time zone"
+
+#~ msgctxt "Date Time Picker JS closeText"
+#~ msgid "Done"
+#~ msgstr "Done"
+
+#~ msgctxt "Date Time Picker JS selectText"
+#~ msgid "Select"
+#~ msgstr "Select"
+
+#~ msgctxt "Date Time Picker JS amText"
+#~ msgid "AM"
+#~ msgstr "a.m."
+
+#~ msgctxt "Date Time Picker JS pmText"
+#~ msgid "PM"
+#~ msgstr "p.m."
+
+#~ msgctxt "Date Time Picker JS pmTextShort"
+#~ msgid "P"
+#~ msgstr "L"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Placeholder Text"
+#~ msgstr "متن حفره یا سوراخ"
+
+#~ msgid "File"
+#~ msgstr "Archivo"
+
+#~ msgid "Add File"
+#~ msgstr "Add file"
+
+#~ msgid "File Array"
+#~ msgstr "File array"
+
+#~ msgid "Library"
+#~ msgstr "Library"
+
+#~ msgid "All"
+#~ msgstr "همه"
+
+#~ msgid "Minimum"
+#~ msgstr "Mínimo"
+
+#~ msgid "Maximum"
+#~ msgstr "Máximo"
+
+#~ msgid "Comma separated list. Leave blank for all types"
+#~ msgstr "Comma-separated list. Leave blank for all types"
+
+#~ msgid "Google Map"
+#~ msgstr "谷歌地图"
+
+#~ msgid "Center"
+#~ msgstr "Merkez"
+
+#~ msgid "Zoom"
+#~ msgstr "Yakınlaştırma"
+
+#~ msgid "Height"
+#~ msgstr "Высота"
+
+#~ msgid "Group"
+#~ msgstr "Grupo"
+
+#~ msgid "Sub Fields"
+#~ msgstr "Sub-fields"
+
+#~ msgid "Table"
+#~ msgstr "Table"
+
+#~ msgid "Row"
+#~ msgstr "Dizi"
+
+#~ msgid "Image"
+#~ msgstr "Imagen"
+
+#~ msgid "Add Image"
+#~ msgstr "Dodaj obraz"
+
+#~ msgid "Image Array"
+#~ msgstr "Image array"
+
+#~ msgid "Image URL"
+#~ msgstr "Enlace de la imagen"
+
+#~ msgid "Width"
+#~ msgstr "Ширина"
+
+#~ msgid "Preview Size"
+#~ msgstr "Preview size"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "Select Link"
+#~ msgstr "Select link"
+
+#~ msgid "Link Array"
+#~ msgstr "Link array"
+
+#~ msgid "Link URL"
+#~ msgstr "链接URL"
+
+#~ msgid "Message"
+#~ msgstr "Mensaje"
+
+#~ msgid "New Lines"
+#~ msgstr "New lines"
+
+#~ msgid "No Formatting"
+#~ msgstr "No formatting"
+
+#~ msgid "Number"
+#~ msgstr "شماره"
+
+#~ msgid "Minimum Value"
+#~ msgstr "Minimum value"
+
+#~ msgid "Maximum Value"
+#~ msgstr "Maximum value"
+
+#~ msgid "Step Size"
+#~ msgstr "Step size"
+
+#~ msgid "oEmbed"
+#~ msgstr "镶嵌的"
+
+#~ msgid "Embed Size"
+#~ msgstr "Embed size"
+
+#~ msgid "Page Link"
+#~ msgstr "Page link"
+
+#~ msgid "Archives"
+#~ msgstr "Arquivos"
+
+#~ msgid "Parent"
+#~ msgstr "Pai"
+
+#~ msgid "Filter by Post Type"
+#~ msgstr "Filter by post type"
+
+#~ msgid "Filter by Taxonomy"
+#~ msgstr "Filter by taxonomy"
+
+#~ msgid "Allow Archives URLs"
+#~ msgstr "Allow archives URLs"
+
+#~ msgid "Password"
+#~ msgstr "Contraseña"
+
+#~ msgid "Post Object"
+#~ msgstr "Post object"
+
+#~ msgid "Radio Button"
+#~ msgstr "Radio button"
+
+#~ msgid "Range"
+#~ msgstr "المجال"
+
+#~ msgid "Search..."
+#~ msgstr "Search…"
+
+#~ msgid "Filters"
+#~ msgstr "Filtres"
+
+#~ msgid "Post Type"
+#~ msgstr "Post type"
+
+#~ msgid "Elements"
+#~ msgstr "Elements"
+
+#~ msgctxt "noun"
+#~ msgid "Select"
+#~ msgstr "Select"
+
+#~ msgctxt "Select2 JS load_more"
+#~ msgid "Loading more results&hellip;"
+#~ msgstr "Loading more results…"
+
+#~ msgctxt "Select2 JS searching"
+#~ msgid "Searching&hellip;"
+#~ msgstr "Searching…"
+
+#~ msgid "Use AJAX to lazy load choices?"
+#~ msgstr "Use Ajax to lazy load choices?"
+
+#~ msgid "Separator"
+#~ msgstr "خط جدا کننده"
+
+#~ msgid "Create Terms"
+#~ msgstr "Create terms"
+
+#~ msgid "Save Terms"
+#~ msgstr "Save terms"
+
+#~ msgid "Load Terms"
+#~ msgstr "Load terms"
+
+#~ msgid "Term Object"
+#~ msgstr "Term object"
+
+#~ msgid "Term ID"
+#~ msgstr "Term id"
+
+#~ msgid "Appearance"
+#~ msgstr "Apariencia"
+
+#~ msgid "Multiple Values"
+#~ msgstr "Multiple values"
+
+#~ msgid "Multi Select"
+#~ msgstr "Multi-select"
+
+#~ msgid "Single Value"
+#~ msgstr "Single value"
+
+#~ msgid "Radio Buttons"
+#~ msgstr "Radio buttons"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Character Limit"
+#~ msgstr "Character limit"
+
+#~ msgid "Text Area"
+#~ msgstr "Text area"
+
+#~ msgid "Rows"
+#~ msgstr "排"
+
+#~ msgid "Time Picker"
+#~ msgstr "Time picker"
+
+#~ msgid "True / False"
+#~ msgstr "True / false"
+
+#~ msgid "On Text"
+#~ msgstr "On text"
+
+#~ msgid "Off Text"
+#~ msgstr "Off text"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "User"
+#~ msgstr "Пользователь"
+
+#~ msgid "User Array"
+#~ msgstr "User array"
+
+#~ msgid "User Object"
+#~ msgstr "User object"
+
+#~ msgid "User ID"
+#~ msgstr "User ID"
+
+#~ msgctxt "Name for the Text editor tab (formerly HTML)"
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Tabs"
+#~ msgstr "Tabs"
+
+#~ msgid "Visual & Text"
+#~ msgstr "Visual and text"
+
+#~ msgid "Visual Only"
+#~ msgstr "Visual only"
+
+#~ msgid "Text Only"
+#~ msgstr "Text only"
+
+#~ msgid "Show Media Upload Buttons?"
+#~ msgstr "Show media upload buttons?"
+
+#~ msgid "Validate Email"
+#~ msgstr "Validate email"
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid "Post updated"
+#~ msgstr "文章已更新"
+
+#~ msgid "Spam Detected"
+#~ msgstr "Spam detected"
+
+#~ msgid "Forms"
+#~ msgstr "فرم ها"
+
+#~ msgid "is equal to"
+#~ msgstr "等于"
+
+#~ msgid "is not equal to"
+#~ msgstr "不等于"
+
+#~ msgid "Attachment"
+#~ msgstr "Adjunto archivo"
+
+#~ msgid "Comment"
+#~ msgstr "Комментарий"
+
+#~ msgid "Current User Role"
+#~ msgstr "Current user role"
+
+#~ msgid "Super Admin"
+#~ msgstr "Super-admin"
+
+#~ msgid "Current User"
+#~ msgstr "Current user"
+
+#~ msgid "Viewing front end"
+#~ msgstr "Viewing frontend"
+
+#~ msgid "Viewing back end"
+#~ msgstr "Viewing backend"
+
+#~ msgid "Menu Item"
+#~ msgstr "Menu item"
+
+#~ msgid "Menu"
+#~ msgstr "منو"
+
+#~ msgid "Menu Locations"
+#~ msgstr "Menu locations"
+
+#~ msgid "Page Parent"
+#~ msgstr "Page parent"
+
+#~ msgid "Page Template"
+#~ msgstr "Page template"
+
+#~ msgid "Default Template"
+#~ msgstr "Default template"
+
+#~ msgid "Page Type"
+#~ msgstr "Page type"
+
+#~ msgid "Front Page"
+#~ msgstr "Front page"
+
+#~ msgid "Posts Page"
+#~ msgstr "Posts page"
+
+#~ msgid "Top Level Page (no parent)"
+#~ msgstr "Top-level page (no parent)"
+
+#~ msgid "Parent Page (has children)"
+#~ msgstr "Parent page (has children)"
+
+#~ msgid "Child Page (has parent)"
+#~ msgstr "Child page (has parent)"
+
+#~ msgid "Post Category"
+#~ msgstr "Post category"
+
+#~ msgid "Post Format"
+#~ msgstr "Post format"
+
+#~ msgid "Post Status"
+#~ msgstr "Post status"
+
+#~ msgid "Post Taxonomy"
+#~ msgstr "Post taxonomy"
+
+#~ msgid "Post Template"
+#~ msgstr "Post template"
+
+#~ msgid "User Form"
+#~ msgstr "User form"
+
+#~ msgid "Register"
+#~ msgstr "Registro"
+
+#~ msgid "User Role"
+#~ msgstr "用户角色"
+
+#~ msgid "Widget"
+#~ msgstr "小工具"
+
+#~ msgctxt "verb"
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#~ msgid "light"
+#~ msgstr "سبک"
+
+#~ msgid "medium"
+#~ msgstr "متوسط"
+
+#~ msgid "Main navigation"
+#~ msgstr "Главное меню"
+
+#~ msgid "Back to top"
+#~ msgstr "بازگشت به بالا"
+
+#~ msgid "New Genre Name"
+#~ msgstr "New Genre Name"

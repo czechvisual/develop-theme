@@ -29,7 +29,7 @@ add_action( 'wp_dashboard_setup', __NAMESPACE__ . '\remove_dashboard_widgets' );
 function dashboard_widget_guide() {
     wp_add_dashboard_widget(
         'dashboard_widget_guide', // Widget ID
-        'Doporučení', // Widget title
+        __('Doporučení', app()['textdomain']), // Widget title
         __NAMESPACE__ . '\dashboard_widget_guide_content' // Callback function
     );
 }

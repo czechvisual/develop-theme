@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col">
                     <?= component('post/breadcrumb', 'default', [
-                        'homeLabel' => __('Domů'),
-                        'displayIcon' => __(true),
-                        'icon' => __('fa-solid fa-house')
+                        'homeLabel' => __('Domů', app()['textdomain']),
+                        'displayIcon' => true,
+                        'icon' => 'fa-solid fa-house'
                     ]) ?>
                 </div>
             </div>
